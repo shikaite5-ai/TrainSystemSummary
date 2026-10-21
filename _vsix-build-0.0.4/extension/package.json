@@ -1,0 +1,23 @@
+{
+    "name":  "training-system-mermaid-focus",
+    "displayName":  "Training System Mermaid Focus",
+    "description":  "Focus Mermaid nodes from links in the training-system Markdown preview.",
+    "version":  "0.0.4",
+    "publisher":  "local",
+    "engines":  {
+                    "vscode":  "\u003e=1.90.0"
+                },
+    "categories":  [
+                       "Other"
+                   ],
+    "contributes":  {
+                        "markdown.previewScripts":  [
+                                                        "./preview.js"
+                                                    ]
+                    },
+    "capabilities":  {
+                         "untrustedWorkspaces":  {
+                                                     "supported":  true
+                                                 }
+                     }
+}
